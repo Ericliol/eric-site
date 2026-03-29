@@ -151,9 +151,9 @@ function CodeBackground() {
     const FONT_SIZE = 12;
     const LINE_H = 20;
     const COLS = [
-      { x: 0.52, offset: 0,  speed: 0.4, alpha: 0.11 },
-      { x: 0.70, offset: 10, speed: 0.28, alpha: 0.08 },
-      { x: 0.86, offset: 20, speed: 0.5,  alpha: 0.06 },
+      { x: 0.52, offset: 0,  speed: 0.4, alpha: 0.2 },
+      { x: 0.70, offset: 10, speed: 0.28, alpha: 0.15 },
+      { x: 0.86, offset: 20, speed: 0.5,  alpha: 0.11 },
     ];
 
     const draw = () => {
@@ -326,7 +326,7 @@ export default function App() {
           <div style={{ position: "relative", zIndex: 2, maxWidth: 900, margin: "0 auto", width: "100%", padding: "0 2.5rem" }}>
             <div style={{ opacity: 0, animation: "fadeUp 0.7s ease 0.1s forwards" }}>
               <p style={{ fontFamily: "'Space Mono', monospace", fontSize: "0.72rem", letterSpacing: "0.3em", textTransform: "uppercase", color: "#00ffb4", marginBottom: "1.2rem" }}>
-                // Brisbane, QLD → Tasmania
+                // Brisbane, QLD, Australia
               </p>
             </div>
             <div style={{ opacity: 0, animation: "fadeUp 0.7s ease 0.25s forwards" }}>
